@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.componente {
+    background-color: #14BC84 ;
+    width: 100vw; /*Viewport Width*/
+    height: 100vh; /*Viewport Height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #FFFFFF ;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.25);
+    display: flex;
+    flex-direction: column; /* Cambia el eje principal (X= horizontal) por (Y = vertical)*/
+    justify-content: center; /* Eje principal (Y = vertical) */
+    align-items: center; /* Eje secundario (X= horizontal) */
+    gap: 16px;
+}
+
+.nombre {
+    color: #093733;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #33755F;
+    padding: 16px 32px;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.boton:hover {
+    background-color: #14BC84;
+    color: #33755F;
+}
